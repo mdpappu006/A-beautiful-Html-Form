@@ -1,0 +1,170 @@
+/*
+Template Name: Beautiful Form
+Author Name: Nazmul Hossain Pappu
+Description: A custom Beautiful Form
+Authod URI: nhpit.com
+*/
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-main{
+	display: flex;
+}
+
+.form-left,.form-right{
+	width: 50%;
+}
+
+.form-left{
+	background: #38D4BD;
+	padding: 30px;
+}
+
+.form-left h2{
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 130px;
+	left: -23%;
+	color: #9CE6D9;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+.form-left:after{
+	content: '';
+	background: url(../img/group-meeting.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 51.5%;
+	height: 66%;
+	left: 0;
+	top: 0;
+	opacity: .1;
+}
+
+.column input{
+	padding: 17px;
+	border-radius: 3px;
+	border: none;
+	margin: 10px 13px;
+	width: 40%;
+}
+
+.column textarea{
+	padding: 15px;
+	border-radius: 3px;
+	border: none;
+	margin: 8px 13px;
+	width: 88.5%;
+	height: 100px;
+}
+
+.column input:focus,.column textarea{
+	outline: none;
+}
+
+.form-left form{
+	margin-left: 15%;
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 15%;
+	z-index: 9999;
+}
+
+.column button{
+	background: #FFFFFF;
+	border: none;
+	padding: 18px 30px;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #3fd4be;
+	margin: 12px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.column button:focus{
+	outline: none;
+}
+
+input::placeholder,textarea::placeholder{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #A2A2A2;
+	font-weight: 300;
+}
+
+.right-main{
+	margin-left: 10%;
+	margin-top: 9%
+}
+
+.more-btn{
+	background: #32D6BE;
+	border: none;
+	padding: 18px 40px;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #fff;
+	margin: 12px 0px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.more-btn:focus{
+	outline: none;
+}
+
+.right-main h3{
+	font-size: 28px;
+	font-weight: 400;
+	color: #505050;
+}
+
+/* Icon css*/
+
+.icons{
+	width: 16px;
+	height: 15px;
+	background: #3CD7C1;
+	position: absolute;
+	border-radius: 2px;
+}
+
+.icons::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 5px solid #3CD7C1;
+}
+
+.fa-check{
+	font-size: 9px;
+	color: #fff;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+}
+
+.right-main ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+.right-main ul li div{
+	padding-left: 10px;
+	margin: 25px;
+}
